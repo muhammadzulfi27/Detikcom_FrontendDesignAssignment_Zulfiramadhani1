@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registrasi</title>
+    <link rel="stylesheet" href="public/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800&family=Quicksand:wght@500&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-------------Header Start------------------>
+    <header class="bg-sky-600 absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-10">
+            <a href="#index.html"><img src="public/assets/image/LOGO Detik.png" alt="logo detik" 
+              class="block py-6"></a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absoulute right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-sky-500 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:max-w-full lg:bg-sky-600 lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#About" class="text-base text-dark py-2 mx-8 flex group-hover:text-sky-50 lg:text-white lg:font-semibold">About</a>
+                </li>
+                <li class="group">
+                  <a href="#Mechanism" class="text-base text-dark py-2 mx-8 flex group-hover:text-sky-50 lg:text-white lg:font-semibold">Mekanisme</a>
+                </li>
+                <li class="group">
+                  <a href="#Latest Update" class="text-base text-dark py-2 mx-8 flex group-hover:text-sky-50 lg:text-white lg:font-semibold">latest update</a>
+                </li>
+                <li class="group">
+                  <button class="text-base text-dark py-2 mx-8 flex group-hover:text-sky-600 lg:font-semibold lg:bg-white
+                  lg:text-sky-600 lg:rounded-full lg:py-3 px-8"><a href="index.html">Registrasi</a></button> 
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+   
+    <section id="registrasi.html">
+    <div class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h1 class="font-bold text-4xl text-sky-600">Registrasi</h1>
+          </div>
+
+          <form>
+            <div class="w-full lg:w-2/3 lg:mx-auto">
+            <div class="w-full px-4 mb-8">
+              <input placeholder="Nama Perusahaan*" type="text" id="name" class="w-full border text-slate-400 p-3 rounded-md" />
+            </div>
+
+            <div class="w-full px-4 mb-8">
+              <input placeholder="Email*" type="text" id="name" class="w-full border text-slate-400 p-3 rounded-md" />
+            </div>
+
+            <div class="w-full px-4 mb-8">
+              <input placeholder="Nomor Telepon*" type="text" id="name" class="w-full border text-slate-400 p-3 rounded-md" />
+              <h1 class="text-slate-500 text-xs px-2">Isi hanya angka</h1>
+            </div>
+
+            <div class="w-full px-4 mb-8">
+              <textarea type="text" id="name" class="w-full border first-line:text-slate-400 rounded-md p-3 h-32" placeholder="Tentang Perusahaan (Max.200 character)*"></textarea>
+            </div>
+
+            <div class="w-full px-4 mb-8">
+              <input placeholder="Profil Perusahaan atau Deck (opsional)*" type="text" id="name" class="w-full border text-slate-400 p-3 rounded-md" />
+              <h1 class="text-slate-500 text-xs px-2">Format file pdf, maksimal size 20mb</h1>
+            </div>
+
+            <div class="w-full px-4 mb-8">
+              <input placeholder="Link website*" type="text" id="name" class="w-full border text-slate-400 p-3 rounded-md" />
+              <h1 class="text-slate-500 text-xs px-2">Website sosial media,dll,Sertakan protokol URL(https//atau http.//)</h1>
+            </div>
+
+            <div class="w-full px-4 mb-8">
+              <input type="checkbox" id="toc" />
+              <label for="toc" class="text-sm text-slate-500">Dengan menekan tombol "Daftar", Saya menyetujui syarat dan ketentuan yang berlaku</label>
+            </div>
+
+            <div class="w-full px-4 mb-8">
+              <button class="px-5 py-2 text-white font-semibold font-Montserrat bg-sky-600 rounded-full w-full m-5 block mx-auto mt-3"><a href="registrasi.html">Registrasi</a></button>
+            </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!----------------footer-------------------->
+    <section>
+      <img src="public/assets/image/Footer.png" />
+    </section>
+  </body>
+</html>
